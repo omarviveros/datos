@@ -227,6 +227,8 @@ public List<EntidadRegistro> editarralumnos(@RequestBody EntidadRegistro resgist
         if(sregistro.eliminarregistro(r)){
             return sregistro.obtenerRegistro();
         }
+        
+        
         return null;
     }
     
