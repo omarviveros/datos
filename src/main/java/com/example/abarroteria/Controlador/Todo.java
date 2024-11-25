@@ -229,6 +229,9 @@ public List<EntidadRegistro> editarralumnos(@RequestBody EntidadRegistro resgist
         }
         
         
+        
+        
+        
         return null;
     }
     
